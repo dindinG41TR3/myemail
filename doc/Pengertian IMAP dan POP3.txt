@@ -1,0 +1,57 @@
+Pengertian IMAP dan POP3
+
+Pengertian IMAP (Internet Message Access Protocol) sendiri adalah protokol standar untuk mengakses atau mengambil email dari
+server (yang tersimpan di mail server) . IMAP memungkinkan pengguna memilih pesan email yang akan diambil, membuat folder di
+server, mencari pesan email tertentu, maupun menghapus pesan email yang ada. IMAP memungkinkan terjadinya komunikasi dua arah,
+sehingga terjadi sinkronisasi data.
+
+Jadi, IMAP menyediakan fasilitas untuk tetap menyimpan data e-mail kita (selama belum dihapus) di mail server dan dapat di akses
+dari beberapa perangkat komputer dan smartphone lain, sehingga walaupun komputer atau smartphone kita rusak/hilang maka data
+e-mail kita masih tetap ada dan tidak ikut terhapus/hilang karena data e-mail tersebut tetap tersimpan di mail server dan bukan
+di lokal memori perangkat kita, jadi protokol ini mencopy/mengunduh data e-mail ketika diakses dengan sama sekali tidak menghapus
+data yang disimpan di Mail server.
+
+Sedangkan pengertian dari POP3 (Post Office Protocol version 3) adalah sama seperti IMAP, POP3 juga merupakan protokol email yang
+digunakan untuk mengambil email dari server. Protokol POP3 ditujukan agar ada yang menampung email untuk sementara sampai email
+tersebut diambil oleh penerimanya di komputernya.
+
+Ketika protokol POP3 kita akses ke Mail server maka data e-mail yang berada di Mail server akan hilang secara otomatis karena
+telah di download ke perangkat yang kita gunakan pada saat itu (PC atau Mobile Phone), sehingga ketika kita buka e-mail lagi di
+perangkat yang berbeda sudah tidak dapat melihat data e-mail yang sebelumnya.
+Perbedaan IMAP dan POP3
+
+Setidaknya ada 6 perbedaan yang mencolok antara POP3 dan IMAP.
+POP3
+
+    Sebelum ditampilkan, terlebih dahulu email harus di download. JIka menggunakan komputer yang berbeda, kita harus mendownload
+    lagi dari awal secara berulang
+
+    Jika menggunakan komputer lain, kita tidak bisa membacara penuh semua email karena email yang sudah didownload ke komputer
+    akan terhapus dari server tergantung dari setting Email client.
+
+    Semua email dan file attachment akan terdownload secara menyeluruh saat melakukan cek email dari email client.
+
+    Outgoing Email hanya akan tersimpan secara lokal di komputer (email client).
+
+    Pengaturan email hanya dapat dilakukan di komputer lokal saja, sedangkan di email server akan tetap ada dan sehingga harus
+    hapus secara manual.
+
+    Reload email dari email server komputer kamu membutuhkan waktu yang lama.
+
+IMAP
+
+    Jika melakukan perubahan pada satu komputer, maka akan berdampak pada email server dan komputer lain. Tetapi jika diakses
+    menggunakan komputer lain, email masih tersimpan di server email sehingga tidak perlu mendownload dari awal.
+
+    Jika melakukan identifikasi email yang belum terbaca sangatlah mudah.
+
+    Lebih praktis, cepat dan hemat waktu. Karena pesan yang didownload hanya pesan yang kamu akses saat itu untuk ditampilkan di
+    komputer remote.
+
+    Outgoing Email bisa tersimpan secara realtime di email server dan bisa diakses oleh komputer manapun yang menggunakan IMAP.
+
+    Email server dari komputer dapat diatur secara real time. Saat menghapus emil di komputer remote berarti kamu telah
+    menghapusnya dari email server. Terjadinya sinkronisasi secara otomatis karena yang kita akses adalah kondisi email 
+    seacraa real time.
+
+    Reload email terjadi sangat cepat, karena sinkroniasai antara email server dan kompueter selalu terjadi.
